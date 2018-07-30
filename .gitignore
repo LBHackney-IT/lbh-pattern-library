@@ -1,0 +1,59 @@
+# Working files
+*.swp
+*.swo
+
+# Git credential file
+.gitconfig.local
+
+# Javascript node_modules etc
+node_modules
+bower_components/
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Ignore Python config files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Fish shell
+fishd.*
+.config/fish/fish_history
+fish/fish_history
+
+# Random
+shilocation
+
+# Ignore databases
+.sql
+.sqlite
+
+# Sass cache
+.gulp_scss_cache
+.scss_cache
+
+# System files
+*.retry
+
+# Any files vagrant tries to cache
+.vagrant/
+
+# Others
+*.nyc_coverage/
+npm-debug.log
+/coverage
+/example/*
+/build/*
+/fractal.js
+.idea/
+.nyc_output
