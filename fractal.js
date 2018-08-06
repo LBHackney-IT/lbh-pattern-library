@@ -23,6 +23,35 @@ fractal.set('project.author', 'Riccardo Erra');
 fractal.components.engine('@frctl/nunjucks'); // use Nunjucks for components
 fractal.components.set('ext', '.nunj'); // look for files with a .nunj file extension
 fractal.components.set('path', path.join(__dirname, 'components'));
+fractal.components.set('default.preview', '@preview');
+fractal.components.set('default.collated', 'true');
+fractal.components.set('default.collator', function(markup, item) {
+    return `<!-- @${item.handle} -->\n${markup}`
+});
+fractal.components.set('resources', {
+    css: {
+        label: 'CSS',
+        match: ['**/*.css']
+    }
+});
+fractal.components.set('statuses', {
+  wip: {
+        label: "WIP",
+        description: "Work in progress. Do not implement.",
+        color: "#FF3333"
+    },
+    review: {
+        label: "In review",
+        description: "In review. Implement with caution.",
+        color: "#FF9233"
+    },
+    ready: {
+        label: "Ready",
+        description: "Ready to implement.",
+        color: "#29CC29"
+    }
+});
+fractal.components.set('default.status', 'wip');
 
 /*
  * Tell Fractal where to look for documentation pages.
@@ -46,8 +75,20 @@ const mandelbrot = require('@frctl/mandelbrot'); // require the Mandelbrot theme
 
 // Create a new instance with custom config options
 const myCustomisedTheme = mandelbrot({
-    skin: "olive"
-    // Any other theme configuration values here
+    skin: "olive",
+    favicon: '/assets/img/favicon.ico',
+    nav: ["docs", "components"],
+    panels: ["info", "notes", "html", "resources"],
+    styles: ["default", "/assets/css/theme.css"]
+    // any other theme configuration values here
 });
+
+// specify a directory to hold the theme override templates
+myCustomisedTheme.addLoadPath(__dirname + '/theme');
+
+/*
+ * Specify the static assets directory that contains the custom stylesheet.
+ */
+myCustomisedTheme.addStatic(__dirname + '/assets', '/theme');
 
 fractal.web.theme(myCustomisedTheme); // Tell Fractal to use the configured theme by default
