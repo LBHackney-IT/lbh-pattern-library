@@ -53,7 +53,5 @@ shilocation
 npm-debug.log
 /coverage
 /example/*
-/build/*
-/fractal.js
 .idea/
 .nyc_output
