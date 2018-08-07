@@ -4,7 +4,7 @@
   "description": "lbh-pattern-library",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "gulp fractal"
+    "start": "gulp fractal"
   },
   "repository": {
     "type": "git",
