@@ -3,3 +3,4 @@
 \*------------------------------------*/
 
 @import "normalize.css";
+@import "../../components/**/*.css";
