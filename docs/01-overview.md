@@ -2,18 +2,22 @@
 
 The pattern library is based on [Fractal](http://fractal.build).
 
-Best way to understand how to run it and what is required is to read the [documentation](http://fractal.build/guide). Start from [how to install Fractal](http://fractal.build/guide/installation); Node, Gulp and Fractal itself are the only things needed.
+Best way to understand how to run it and what is required is to read the [documentation](http://fractal.build/guide). Start from [how to install Fractal](http://fractal.build/guide/installation); Node, npm, Gulp and Fractal itself are the things needed:
 
-Once everything is installed just run
+1. [Install Node and npm](https://docs.npmjs.com/getting-started/installing-node#install-npm--manage-npm-versions).
+2. Install gulp-cli: `npm install gulp-cli -g`
+3. Install Fractal-cli: `npm i -g @frctl/fractal`
+
+Once everything is installed run:
 ```
 gulp dev
 ```
 And the pattern library should be visible at http://localhost:3000
 
 
-For creating a build, that is just a static version of the library run
+For creating a build, that is just a static version of the library run:
 ```
-fractal build
+gulp build
 ```
 For everything else best to read the [documentation](http://fractal.build/guide) extensively and check [Fractal's GitHub](https://github.com/frctl/fractal).
 
