@@ -3,4 +3,8 @@
 \*------------------------------------*/
 
 @import "normalize.css";
+@import "system-font-css";
+@import "vars.css";
+@import "all.css";
+@import "main.css";
 @import "../../components/**/*.css";

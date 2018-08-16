@@ -14,6 +14,7 @@ Best way to understand how to run it and what is required is to read the [docume
 
 Once everything is installed run:
 ```
+npm install
 gulp dev
 ```
 And the pattern library should be visible at http://localhost:3000

@@ -1,0 +1,13 @@
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+
+:root {
+    --color-main: hsla(0, 0%, 0%, 1);
+    --background-main: hsla(0, 0%, 100%, 1);
+    --size-main: 1rem;
+    --spacing-main: 1rem;
+  }
+  
+  @custom-media --mobile-viewport (min-width: 30rem);
+  @custom-media --tablet-viewport (min-width: 60rem);
