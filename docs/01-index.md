@@ -1,3 +1,7 @@
+---
+title: Overview
+---
+
 ## How to run and build the pattern library
 
 The pattern library is based on [Fractal](http://fractal.build).
