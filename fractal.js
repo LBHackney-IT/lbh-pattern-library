@@ -76,9 +76,9 @@ const mandelbrot = require('@frctl/mandelbrot'); // require the Mandelbrot theme
 // Create a new instance with custom config options
 const myCustomisedTheme = mandelbrot({
     skin: "olive",
-    favicon: '/assets/img/favicon.ico',
+    format: "json",
     nav: ["docs", "components"],
-    panels: ["info", "notes", "html", "resources"],
+    panels: ["html", "view", "context", "resources", "info", "notes"],
     styles: ["default", "/assets/css/theme.css"]
     // any other theme configuration values here
 });
