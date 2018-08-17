@@ -55,3 +55,6 @@ npm-debug.log
 /example/*
 .idea/
 .nyc_output
+
+# Fractal specific files
+/build

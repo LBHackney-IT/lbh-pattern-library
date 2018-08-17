@@ -21,7 +21,7 @@ fractal.set('project.author', 'Riccardo Erra');
  * Tell Fractal where to look for components.
  */
 fractal.components.engine('@frctl/nunjucks'); // use Nunjucks for components
-fractal.components.set('ext', '.nunj'); // look for files with a .nunj file extension
+fractal.components.set('ext', '.njk'); // look for files with a .nunj file extension
 fractal.components.set('path', path.join(__dirname, 'components'));
 fractal.components.set('default.preview', '@preview');
 fractal.components.set('default.collated', 'true');
