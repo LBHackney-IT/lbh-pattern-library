@@ -2,6 +2,39 @@
     #THEME
 \*------------------------------------*/
 
-.lbh-header {
+.lbh-theme .Header {
     background: #00664F;
+}
+
+.lbh-theme__logo {
+    margin-left: 1rem;
+}
+
+.lbh-theme .Header-navToggle svg {
+    fill: #fff;
+}
+
+.lbh-theme .Header-navToggle svg,
+.lbh-theme .Header-title {
+    color: #fff;
+}
+
+.lbh-theme .Frame-panel--sidebar {
+    background-color: #fff;
+}
+
+.lbh-theme .Tree-title,
+.lbh-theme .Tree-collectionLabel {
+    color: inherit;
+}
+
+.lbh-theme .Tree-entityLink {
+    text-decoration: underline;
+}
+
+.lbh-theme .Tree-entityLink:hover,
+.is-current .Tree-entityLink {
+    background-color: inherit;
+    color: inherit;
+    font-weight: 700;
 }

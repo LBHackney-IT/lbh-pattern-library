@@ -13,7 +13,7 @@ const fractal = module.exports = require('@frctl/fractal').create();
 /*
  * Give your project a title.
  */
-fractal.set('project.title', 'LBH Pattern Library');
+fractal.set('project.title', 'Pattern Library');
 fractal.set('project.version', 'v0.1.5');
 fractal.set('project.author', 'Riccardo Erra');
 
