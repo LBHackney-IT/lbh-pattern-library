@@ -14,7 +14,7 @@ const fractal = module.exports = require('@frctl/fractal').create();
  * Give your project a title.
  */
 fractal.set('project.title', 'Pattern Library');
-fractal.set('project.version', 'v0.1.5');
+fractal.set('project.version', 'v0.2.0');
 fractal.set('project.author', 'Riccardo Erra');
 
 /*
@@ -75,6 +75,7 @@ const mandelbrot = require('@frctl/mandelbrot'); // require the Mandelbrot theme
 
 // Create a new instance with custom config options
 const myCustomisedTheme = mandelbrot({
+    favicon: '/assets/img/favicons/favicon.ico',
     skin: "olive",
     format: "json",
     nav: ["docs", "components"],
