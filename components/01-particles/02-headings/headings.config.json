@@ -1,0 +1,12 @@
+{
+    "title": "Headings",
+    "variants": [
+        "name": "X Large",
+        "context": {
+            "heading": {
+                "class": "h1",
+                "text": "X Large 48px"
+            }
+        }
+    ]
+}

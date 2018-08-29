@@ -79,7 +79,7 @@ const myCustomisedTheme = mandelbrot({
     skin: "olive",
     format: "json",
     nav: ["docs", "components"],
-    panels: ["html", "view", "context", "resources", "info", "notes"],
+    panels: ["info", "notes", "html", "resources"],
     styles: ["default", "/assets/css/theme.css"]
     // any other theme configuration values here
 });
