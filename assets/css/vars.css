@@ -3,6 +3,7 @@
 \*------------------------------------*/
 
 :root {
+    --font-family-main: Arial, Helvetica Neue, Helvetica, sans-serif;
     --color-main: hsla(0, 0%, 0%, 1);
     --background-main: hsla(0, 0%, 100%, 1);
     --size-main: 1rem;

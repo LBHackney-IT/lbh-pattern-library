@@ -2,6 +2,23 @@
     #THEME
 \*------------------------------------*/
 
+.lbh-theme,
+.lbh-theme .Tree-item,
+.lbh-theme .Tree-title,
+.lbh-theme .Tree-collectionLabel,
+.lbh-theme .Pen-title,
+.lbh-theme .Status-label,
+.lbh-theme .Browser-tab a,
+.lbh-theme .Document-title,
+.lbh-theme .Prose,
+.lbh-theme .Prose h2,
+.lbh-theme .FileBrowser-select-label,
+.lbh-theme .FileBrowser-selectWrapper .select2-container,
+.lbh-theme .Meta-key,
+.lbh-theme .Meta-value {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif ;
+}
+
 .lbh-theme .Header {
     background: #00664F;
 }
