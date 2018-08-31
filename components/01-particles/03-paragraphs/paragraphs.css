@@ -1,0 +1,15 @@
+.lbh-u-p {
+    max-width: var(--width-main);
+}
+
+.lbh-u-p--default {
+    font-size: var(--font-size-paragraph-default);
+}
+
+.lbh-u-p--lede {
+    font-size: var(--font-size-paragraph-lede);
+}
+
+.lbh-u-p--small {
+    font-size: var(--font-size-paragraph-small);
+}

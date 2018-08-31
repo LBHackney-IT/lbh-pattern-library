@@ -10,12 +10,18 @@
     --font-size-heading-medium: 1.25rem; /* 20px */
     --font-size-heading-small: 1rem; /* 16px */
 
+    --font-size-paragraph-default: 1.1875rem; /* 19px */
+    --font-size-paragraph-lede: 1.5rem; /* 24px */
+    --font-size-paragraph-small: 1rem; /* 16px */
+
     --color-main: hsla(180, 4%, 5%, 1);
     --background-main: hsla(0, 0%, 100%, 1);
 
     --size-main: 1rem;
 
     --spacing-main: 1rem;
+
+    --width-main: 40rem; /* 640px */
   }
   
   @custom-media --mobile-viewport (min-width: 30rem);

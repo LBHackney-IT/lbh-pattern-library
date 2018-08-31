@@ -1,0 +1,32 @@
+{
+    "title": "Paragraphs",
+    "variants": [
+      {
+        "name": "lede",
+        "context": {
+          "paragraph": {
+            "class": "lede",
+            "text": "A 24px lead paragraph with some longer text so that you can see how it wraps."
+          }
+        }
+      },
+      {
+        "name": "default",
+        "context": {
+          "paragraph": {
+            "class": "default",
+            "text": "A 19px body copy paragraph. This includes even more text to give a good representation of a more average length paragraph. That way you can see more than one line wrapping."
+          }
+        }
+      },
+      {
+        "name": "small",
+        "context": {
+          "paragraph": {
+            "class": "small",
+            "text": "A 16px supporting text paragraph. This includes even more text to give a good representation of a more average length paragraph. That way you can see more than one line wrapping."
+          }
+        }
+      }
+    ]
+  }
