@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="lbh-preview lbh-preview--palette">
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | path }}" type="image/ico"/>
+    <link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | path }}" type="image/png"/>
+    <link media="all" rel="stylesheet" href="{{ '/assets/css/preview.css' | path }}">
+    <link media="all" rel="stylesheet" href="{{ '/assets/css/style.css' | path }}">
+    <title>Preview of {{ _target.title }} with layout</title>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="component">
+        {{ yield }}
+      </div>
+    </div>
+  </div>
+  <script>
+    document.body.className += "js";
+  </script>
+    <script async src="{{ '/assets/js/script.js' | path }}"></script>
+</body>
+</html>

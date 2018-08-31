@@ -1,5 +1,6 @@
 {
     "title": "Colours palette",
+    "preview": "@preview-palette",
     "variants": [
       {
         "name": "default",

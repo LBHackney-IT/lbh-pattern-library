@@ -1,4 +1,4 @@
-.lbh-preview .component {
+.lbh-preview--palette .component {
     display: grid;
     grid-gap: 1rem;
 	grid-template-columns: repeat(auto-fill, minmax(10rem, auto));
