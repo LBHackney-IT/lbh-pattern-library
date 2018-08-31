@@ -1,12 +1,45 @@
 {
     "title": "Headings",
     "variants": [
-        "name": "X Large",
+      {
+        "name": "default",
         "context": {
-            "heading": {
-                "class": "h1",
-                "text": "X Large 48px"
-            }
+          "heading": {
+            "tag": "h1",
+            "class": "h1",
+            "text": "Extra Large 48px"
+          }
         }
+      },
+      {
+        "name": "large",
+        "context": {
+          "heading": {
+            "tag": "h2",
+            "class": "h2",
+            "text": "Large 36px"
+          }
+        }
+      },
+      {
+        "name": "medium",
+        "context": {
+          "heading": {
+            "tag": "h3",
+            "class": "h3",
+            "text": "Medium 20px"
+          }
+        }
+      },
+      {
+        "name": "small",
+        "context": {
+          "heading": {
+            "tag": "h4",
+            "class": "h4",
+            "text": "Small 16px"
+          }
+        }
+      }
     ]
-}
+  }

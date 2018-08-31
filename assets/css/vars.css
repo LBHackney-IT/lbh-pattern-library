@@ -4,9 +4,17 @@
 
 :root {
     --font-family-main: Arial, Helvetica Neue, Helvetica, sans-serif;
+
+    --font-size-heading-xlarge: 3rem; /* 48px */
+    --font-size-heading-large: 2.25rem; /* 36px */
+    --font-size-heading-medium: 1.25rem; /* 20px */
+    --font-size-heading-small: 1rem; /* 16px */
+
     --color-main: hsla(180, 4%, 5%, 1);
     --background-main: hsla(0, 0%, 100%, 1);
+
     --size-main: 1rem;
+
     --spacing-main: 1rem;
   }
   

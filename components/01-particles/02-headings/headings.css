@@ -1,0 +1,22 @@
+.lbh-u-h1,
+.lbh-u-h2,
+.lbh-u-h3,
+.lbh-u-h4 {
+    font-weight: 700;
+}
+
+.lbh-u-h1 {
+    font-size: var(--font-size-heading-xlarge);
+}
+
+.lbh-u-h2 {
+    font-size: var(--font-size-heading-large);
+}
+
+.lbh-u-h3 {
+    font-size: var(--font-size-heading-medium);
+}
+
+.lbh-u-h4 {
+    font-size: var(--font-size-heading-small);
+}
