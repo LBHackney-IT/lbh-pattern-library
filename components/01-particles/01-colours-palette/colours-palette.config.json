@@ -1,0 +1,185 @@
+{
+    "title": "Colours palette",
+    "variants": [
+      {
+        "name": "default",
+        "context": {
+          "palette": {
+            "background": "#0B0C0C",
+            "colour": "#0B0C0C",
+            "name": "text-colour"
+          }
+        }
+      },
+      {
+        "name": "secondary-text-colour",
+        "context": {
+          "palette": {
+            "background": "#6F777B",
+            "colour": "#6F777B",
+            "name": "secondary-text-colour"
+          }
+        }
+      },
+      {
+        "name": "page-colour",
+        "context": {
+          "palette": {
+            "background": "#FFFFFF",
+            "colour": "#FFFFFF",
+            "name": "page-colour"
+          }
+        }
+      },
+      {
+        "name": "link-colour",
+        "context": {
+          "palette": {
+            "background": "#0072CE",
+            "colour": "#0072CE",
+            "name": "link-colour"
+          }
+        }
+      },
+      {
+        "name": "link-hover-colour",
+        "context": {
+          "palette": {
+            "background": "#0085CA",
+            "colour": "#0085CA",
+            "name": "link-hover-colour"
+          }
+        }
+      },
+      {
+        "name": "link-visited-colour",
+        "context": {
+          "palette": {
+            "background": "#8031A7",
+            "colour": "#8031A7",
+            "name": "link-visited-colour"
+          }
+        }
+      },
+      {
+        "name": "border-colour",
+        "context": {
+          "palette": {
+            "background": "#BFC1C3",
+            "colour": "#BFC1C3",
+            "name": "border-colour"
+          }
+        }
+      },
+      {
+        "name": "panel-colour",
+        "context": {
+          "palette": {
+            "background": "#DEE0E2",
+            "colour": "#DEE0E2",
+            "name": "panel-colour"
+          }
+        }
+      },
+      {
+        "name": "highlight-colour",
+        "context": {
+          "palette": {
+            "background": "#F8F8F8",
+            "colour": "#F8F8F8",
+            "name": "highlight-colour"
+          }
+        }
+      },
+      {
+        "name": "button-colour",
+        "context": {
+          "palette": {
+            "background": "#00664F",
+            "colour": "#00664F",
+            "name": "button-colour"
+          }
+        }
+      },
+      {
+        "name": "green (hover colour)",
+        "context": {
+          "palette": {
+            "background": "#00513F",
+            "colour": "#00513F",
+            "name": "green (hover colour)"
+          }
+        }
+      },
+      {
+        "name": "green (inner shadow)",
+        "context": {
+          "palette": {
+            "background": "#003d2F",
+            "colour": "#003d2F",
+            "name": "green (inner shadow)"
+          }
+        }
+      },
+      {
+        "name": "disabled-button",
+        "context": {
+          "palette": {
+            "background": "#7FB2A7",
+            "colour": "#7FB2A7",
+            "name": "disabled-button"
+          }
+        }
+      },
+      {
+        "name": "disabled (inner shadow)",
+        "context": {
+          "palette": {
+            "background": "#328472",
+            "colour": "#328472",
+            "name": "disabled (inner shadow)"
+          }
+        }
+      },
+      {
+        "name": "attention-green",
+        "context": {
+          "palette": {
+            "background": "#00B140",
+            "colour": "#00B140",
+            "name": "attention-green"
+          }
+        }
+      },
+      {
+        "name": "confirmation",
+        "context": {
+          "palette": {
+            "background": "#A4D65E",
+            "colour": "#A4D65E",
+            "name": "confirmation"
+          }
+        }
+      },
+      {
+        "name": "focus-colour",
+        "context": {
+          "palette": {
+            "background": "#FFC845",
+            "colour": "#FFC845",
+            "name": "focus-colour"
+          }
+        }
+      },
+      {
+        "name": "error-colour",
+        "context": {
+          "palette": {
+            "background": "#BE3A34",
+            "colour": "#BE3A34",
+            "name": "error-colour"
+          }
+        }
+      }
+    ]
+  }

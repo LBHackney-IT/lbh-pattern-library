@@ -1,0 +1,55 @@
+{
+    "title": "Greyscale palette",
+    "variants": [
+      {
+        "name": "default",
+        "context": {
+          "palette": {
+            "background": "#0B0C0C",
+            "colour": "#0B0C0C",
+            "name": "black"
+          }
+        }
+      },
+      {
+        "name": "grey-1",
+        "context": {
+          "palette": {
+            "background": "#6F777B",
+            "colour": "#6F777B",
+            "name": "grey-1"
+          }
+        }
+      },
+      {
+        "name": "grey-2",
+        "context": {
+          "palette": {
+            "background": "#BFC1C3",
+            "colour": "#BFC1C3",
+            "name": "grey-2"
+          }
+        }
+      },
+      {
+        "name": "grey-3",
+        "context": {
+          "palette": {
+            "background": "#DEE0E2",
+            "colour": "#DEE0E2",
+            "name": "grey-3"
+          }
+        }
+      },
+      {
+        "name": "grey-4",
+        "context": {
+          "palette": {
+            "background": "#F8F8F8",
+            "colour": "#F8F8F8",
+            "name": "grey-4"
+          }
+        }
+      }
+    ]
+  }
