@@ -1,14 +1,14 @@
 .lbh-preview--palette .component {
     display: grid;
     grid-gap: 1rem;
-	grid-template-columns: repeat(auto-fill, minmax(10rem, auto));
-	grid-auto-rows: minmax(10rem, auto);
+	grid-template-columns: repeat(auto-fill, minmax(12rem, auto));
+	grid-auto-rows: minmax(20rem, auto);
 }
 
 .palette__content span {
     background-color: black;
-    width: 50%;
-    height: 50%;
+    width: 6rem;
+    height: 6rem;
     display: block;
     border-radius: 50%;
     margin: 0 auto;

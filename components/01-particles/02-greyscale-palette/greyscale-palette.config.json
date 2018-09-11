@@ -7,7 +7,11 @@
         "context": {
           "palette": {
             "background": "#0B0C0C",
-            "colour": "#0B0C0C",
+            "colour": {
+              "hex": "#0B0C0C",
+              "rgba": "rgba(11, 12, 12, 1)",
+              "hsla": "hsla(180, 4%, 5%, 1)"
+            },
             "name": "black"
           }
         }
@@ -17,7 +21,11 @@
         "context": {
           "palette": {
             "background": "#6F777B",
-            "colour": "#6F777B",
+            "colour": {
+              "hex": "#6F777B",
+              "rgba": "rgba(111, 119, 123, 1)",
+              "hsla": "hsla(200, 5%, 46%, 1)"
+            },
             "name": "grey-1"
           }
         }
@@ -27,7 +35,11 @@
         "context": {
           "palette": {
             "background": "#BFC1C3",
-            "colour": "#BFC1C3",
+            "colour": {
+              "hex": "#BFC1C3",
+              "rgba": "rgba(191, 193, 195, 1)",
+              "hsla": "hsla(210, 3%, 76%, 1)"
+            },
             "name": "grey-2"
           }
         }
@@ -37,7 +49,11 @@
         "context": {
           "palette": {
             "background": "#DEE0E2",
-            "colour": "#DEE0E2",
+            "colour": {
+              "hex": "#DEE0E2",
+              "rgba": "rgba(222, 224, 226, 1)",
+              "hsla": "hsla(210, 6%, 88%, 1)"
+            },
             "name": "grey-3"
           }
         }
@@ -47,7 +63,11 @@
         "context": {
           "palette": {
             "background": "#F8F8F8",
-            "colour": "#F8F8F8",
+            "colour": {
+              "hex": "#F8F8F8",
+              "rgba": "rgba(248, 248, 248, 1)",
+              "hsla": "hsla(0, 0%, 97%, 1)"
+            },
             "name": "grey-4"
           }
         }

@@ -7,7 +7,11 @@
         "context": {
           "palette": {
             "background": "#0B0C0C",
-            "colour": "#0B0C0C",
+            "colour": {
+              "hex": "#0B0C0C",
+              "rgba": "rgba(11, 12, 12, 1)",
+              "hsla": "hsla(180, 4%, 5%, 1)"
+            },
             "name": "text-colour"
           }
         }
@@ -17,7 +21,11 @@
         "context": {
           "palette": {
             "background": "#6F777B",
-            "colour": "#6F777B",
+            "colour": {
+              "hex": "#6F777B",
+              "rgba": "rgba(111, 119, 123, 1)",
+              "hsla": "hsla(200, 5%, 46%, 1)"
+            },
             "name": "secondary-text-colour"
           }
         }
@@ -27,7 +35,11 @@
         "context": {
           "palette": {
             "background": "#FFFFFF",
-            "colour": "#FFFFFF",
+            "colour": {
+              "hex": "#FFFFFF",
+              "rgba": "rgba(255, 255, 255, 1)",
+              "hsla": "hsla(0, 100%, 100%, 1)"
+            },
             "name": "page-colour"
           }
         }
@@ -37,7 +49,11 @@
         "context": {
           "palette": {
             "background": "#0072CE",
-            "colour": "#0072CE",
+            "colour": {
+              "hex": "#0072CE",
+              "rgba": "rgba(0, 114, 206, 1)",
+              "hsla": "hsla(207, 100%, 40%, 1)"
+            },
             "name": "link-colour"
           }
         }
@@ -47,7 +63,11 @@
         "context": {
           "palette": {
             "background": "#0085CA",
-            "colour": "#0085CA",
+            "colour": {
+              "hex": "#0085CA",
+              "rgba": "rgba(0, 133, 202, 1)",
+              "hsla": "hsla(200, 100%, 40%, 1)"
+            },
             "name": "link-hover-colour"
           }
         }
@@ -57,7 +77,11 @@
         "context": {
           "palette": {
             "background": "#8031A7",
-            "colour": "#8031A7",
+            "colour": {
+              "hex": "#8031A7",
+              "rgba": "rgba(128, 49, 167, 1)",
+              "hsla": "hsla(280, 55%, 42%, 1)"
+            },
             "name": "link-visited-colour"
           }
         }
@@ -67,7 +91,11 @@
         "context": {
           "palette": {
             "background": "#BFC1C3",
-            "colour": "#BFC1C3",
+            "colour": {
+              "hex": "#BFC1C3",
+              "rgba": "rgba(191, 193, 195, 1)",
+              "hsla": "hsla(210, 3%, 76%, 1)"
+            },
             "name": "border-colour"
           }
         }
@@ -77,7 +105,11 @@
         "context": {
           "palette": {
             "background": "#DEE0E2",
-            "colour": "#DEE0E2",
+            "colour": {
+              "hex": "#DEE0E2",
+              "rgba": "rgba(222, 224, 226, 1)",
+              "hsla": "hsla(210, 6%, 88%, 1)"
+            },
             "name": "panel-colour"
           }
         }
@@ -87,7 +119,11 @@
         "context": {
           "palette": {
             "background": "#F8F8F8",
-            "colour": "#F8F8F8",
+            "colour": {
+              "hex": "#F8F8F8",
+              "rgba": "rgba(248, 248, 248, 1)",
+              "hsla": "hsla(0, 0%, 97%, 1)"
+            },
             "name": "highlight-colour"
           }
         }
@@ -97,7 +133,11 @@
         "context": {
           "palette": {
             "background": "#00664F",
-            "colour": "#00664F",
+            "colour": {
+              "hex": "#00664F",
+              "rgba": "rgba(0, 102, 79, 1)",
+              "hsla": "hsla(166, 100%, 20%, 1)"
+            },
             "name": "button-colour"
           }
         }
@@ -107,7 +147,11 @@
         "context": {
           "palette": {
             "background": "#00513F",
-            "colour": "#00513F",
+            "colour": {
+              "hex": "#00513F",
+              "rgba": "rgba(0, 81, 63, 1)",
+              "hsla": "hsla(167, 100%, 16%, 1)"
+            },
             "name": "green (hover colour)"
           }
         }
@@ -116,8 +160,12 @@
         "name": "green (inner shadow)",
         "context": {
           "palette": {
-            "background": "#003d2F",
-            "colour": "#003d2F",
+            "background": "#003D2F",
+            "colour": {
+              "hex": "#003D2F",
+              "rgba": "rgba(0, 61, 47, 1)",
+              "hsla": "hsla(166, 100%, 12%, 1)"
+            },
             "name": "green (inner shadow)"
           }
         }
@@ -127,7 +175,11 @@
         "context": {
           "palette": {
             "background": "#7FB2A7",
-            "colour": "#7FB2A7",
+            "colour": {
+              "hex": "#7FB2A7",
+              "rgba": "rgba(127, 178, 167, 1)",
+              "hsla": "hsla(167, 25%, 60%, 1)"
+            },
             "name": "disabled-button"
           }
         }
@@ -137,7 +189,11 @@
         "context": {
           "palette": {
             "background": "#328472",
-            "colour": "#328472",
+            "colour": {
+              "hex": "#328472",
+              "rgba": "rgba(50, 132, 114, 1)",
+              "hsla": "hsla(167, 45%, 36%, 1)"
+            },
             "name": "disabled (inner shadow)"
           }
         }
@@ -147,7 +203,11 @@
         "context": {
           "palette": {
             "background": "#00B140",
-            "colour": "#00B140",
+            "colour": {
+              "hex": "#00B140",
+              "rgba": "rgba(0, 177, 64, 1)",
+              "hsla": "hsla(142, 100%, 35%, 1)"
+            },
             "name": "attention-green"
           }
         }
@@ -157,7 +217,11 @@
         "context": {
           "palette": {
             "background": "#A4D65E",
-            "colour": "#A4D65E",
+            "colour": {
+              "hex": "#A4D65E",
+              "rgba": "rgba(164, 214, 94, 1)",
+              "hsla": "hsla(85, 59%, 60%, 1)"
+            },
             "name": "confirmation"
           }
         }
@@ -167,7 +231,11 @@
         "context": {
           "palette": {
             "background": "#FFC845",
-            "colour": "#FFC845",
+            "colour": {
+              "hex": "#FFC845",
+              "rgba": "rgba(255, 200, 69, 1)",
+              "hsla": "hsla(42, 100%, 64%, 1)"
+            },
             "name": "focus-colour"
           }
         }
@@ -177,7 +245,11 @@
         "context": {
           "palette": {
             "background": "#BE3A34",
-            "colour": "#BE3A34",
+            "colour": {
+              "hex": "#BE3A34",
+              "rgba": "rrgba(190, 58, 52, 1)",
+              "hsla": "hsla(3, 57%, 47%, 1)"
+            },
             "name": "error-colour"
           }
         }
