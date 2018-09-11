@@ -3,6 +3,5 @@
         {% include 'icons/close-nav.svg' %}
         {% include 'icons/open-nav.svg' %}
     </button>
-    {% include "icons/logo.svg" %}
-    <a href="{{ path('/') }}" class="Header-title" data-pjax>{{ frctl.get('project.title') | default('Component Library') }}</a>
+    <a href="{{ path('/') }}" class="Header-title" data-pjax>{% include "icons/logo.svg" %} {{ frctl.get('project.title') | default('Component Library') }}</a>
 </div>
