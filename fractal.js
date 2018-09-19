@@ -14,7 +14,7 @@ const fractal = module.exports = require('@frctl/fractal').create();
  * Give your project a title.
  */
 fractal.set('project.title', 'Pattern Library');
-fractal.set('project.version', 'v0.2.0');
+fractal.set('project.version', 'v0.4.0');
 fractal.set('project.author', 'Riccardo Erra');
 
 /*
@@ -35,7 +35,7 @@ fractal.components.set('resources', {
     }
 });
 fractal.components.set('statuses', {
-  wip: {
+    wip: {
         label: "WIP",
         description: "Work in progress. Do not implement.",
         color: "#FF3333"
@@ -51,12 +51,30 @@ fractal.components.set('statuses', {
         color: "#29CC29"
     }
 });
-fractal.components.set('default.status', 'wip');
+fractal.components.set('default.status', 'review');
 
 /*
  * Tell Fractal where to look for documentation pages.
  */
 fractal.docs.set('path', path.join(__dirname, 'docs'));
+fractal.docs.set('statuses', {
+    wip: {
+        label: "WIP",
+        description: "Work in progress. Do not implement.",
+        color: "#FF3333"
+    },
+    review: {
+        label: "In review",
+        description: "In review. Implement with caution.",
+        color: "#FF9233"
+    },
+    ready: {
+        label: "Ready",
+        description: "Ready to implement.",
+        color: "#29CC29"
+    }
+});
+fractal.components.set('default.status', 'review');
 
 /*
  * Tell the Fractal web preview plugin where to look for static assets.
