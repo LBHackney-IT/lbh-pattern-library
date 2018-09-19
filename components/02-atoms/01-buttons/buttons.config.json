@@ -1,3 +1,63 @@
 {
-    "status": "wip"
-}
+    "title": "Buttons",
+    "variants": [
+      {
+        "name": "default",
+        "context": {
+          "button": {
+            "element": "button",
+            "text": "Save and continue"
+          }
+        }
+      },
+      {
+        "name": "disabled",
+        "context": {
+          "button": {
+            "element": "button",
+            "text": "Disabled button"
+          }
+        }
+      },
+      {
+        "name": "link",
+        "context": {
+          "button": {
+            "element": "a",
+            "link": "#",
+            "role": "button",
+            "text": "Start now link button"
+          }
+        }
+      },
+      {
+        "name": "link-disabled",
+        "context": {
+          "button": {
+            "element": "a",
+            "link": "#",
+            "role": "button",
+            "text": "Disabled link button"
+          }
+        }
+      },
+      {
+        "name": "input",
+        "context": {
+          "button": {
+            "element": "input",
+            "value": "Start now input button"
+          }
+        }
+      },
+      {
+        "name": "input-disabled",
+        "context": {
+          "button": {
+            "element": "input",
+            "value": "Disable input button"
+          }
+        }
+      }
+    ]
+  }

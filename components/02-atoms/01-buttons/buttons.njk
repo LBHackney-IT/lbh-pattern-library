@@ -1,35 +1,33 @@
-<button type="submit" class="govuk-button">
+{%- if button.element == 'a' %}
+<a href="{{ button.link }}" role="{{ button.role }}" class="lbh-button {{ button.disabled }} {{ button.arrow }}">
+  {{ button.text }}
+</a>
+
+{%- elseif button.element == 'button' %}
+<button class="lbh-button {{ button.disabled }}">
+  {{ button.text }}
+</button>
+
+{%- elseif button.element == 'input' %}
+<input value="{{ button.value }}" class="lbh-button {{ button.disabled }}" type="{{ button.type }}">
+{%- endif %}
+
+{# <button type="submit" class="lbh-button">
   Save and continue
 </button>
 
-<button type="submit" class="govuk-button">
-  Save and continue
-</button>
-
-<button type="submit" disabled="disabled" aria-disabled="true" class="govuk-button govuk-button--disabled">
+<button type="submit" disabled="disabled" aria-disabled="true" class="lbh-button lbh-button--disabled">
   Disabled button
 </button>
 
-<button type="submit" disabled="disabled" aria-disabled="true" class="govuk-button govuk-button--disabled">
-  Disabled button
-</button>
-
-<a href="#" role="button" class="govuk-button govuk-button--start">
-  Start now
-</a>
-
-<a href="/" role="button" class="govuk-button">
-  Link button
-</a>
-
-<a href="/" role="button" class="govuk-button govuk-button--disabled">
-  Disabled link button
-</a>
-
-<a href="/" role="button" class="govuk-button govuk-button--start">
+<a href="#" role="button" class="lbh-button lbh-button--arrow">
   Start now link button
 </a>
 
-<input value="Start now" name="start-now" type="submit" class="govuk-button">
+<a href="#" role="button" class="lbh-button lbh-button--disabled">
+  Disabled link button
+</a>
 
-<input value="Explicit input button disabled" type="submit" disabled="disabled" aria-disabled="true" class="govuk-button govuk-button--disabled">
+<input value="Start now" name="start-now" type="submit" class="lbh-button">
+
+<input value="Input button disabled" type="submit" disabled="disabled" aria-disabled="true" class="lbh-button lbh-button--disabled"> #}
