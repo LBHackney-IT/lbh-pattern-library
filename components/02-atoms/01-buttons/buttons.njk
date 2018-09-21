@@ -1,15 +1,15 @@
-{%- if button.element == 'a' %}
-<a href="{{ button.link }}" role="{{ button.role }}" class="lbh-button {{ button.disabled }} {{ button.arrow }}">
-  {{ button.text }}
-</a>
-
-{%- elseif button.element == 'button' %}
-<button class="lbh-button {{ button.disabled }}">
+{%- if button.element == 'button' %}
+<button class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}" {%- if button.disable == 'true' %}{%- endif %}>
   {{ button.text }}
 </button>
 
+{%- elseif button.element == 'a' %}
+<a href="{{ button.link }}" role="{{ button.role }}" class="lbh-button{{ button.styledisabled }}{{ button.stylearrow }}">
+  {{ button.text }}
+</a>
+
 {%- elseif button.element == 'input' %}
-<input value="{{ button.value }}" class="lbh-button {{ button.disabled }}" type="{{ button.type }}">
+<input value="{{ button.value }}" class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}">
 {%- endif %}
 
 {# <button type="submit" class="lbh-button">

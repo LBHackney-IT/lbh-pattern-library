@@ -6,7 +6,8 @@
         "context": {
           "button": {
             "element": "button",
-            "text": "Save and continue"
+            "text": "Save and continue",
+            "type": "submit"
           }
         }
       },
@@ -15,7 +16,9 @@
         "context": {
           "button": {
             "element": "button",
-            "text": "Disabled button"
+            "text": "Disabled button",
+            "styledisabled": " lbh-button--disabled",
+            "type": "submit"
           }
         }
       },
@@ -26,7 +29,8 @@
             "element": "a",
             "link": "#",
             "role": "button",
-            "text": "Start now link button"
+            "text": "Start now link button",
+            "stylearrow": " lbh-button--arrow"
           }
         }
       },
@@ -37,7 +41,8 @@
             "element": "a",
             "link": "#",
             "role": "button",
-            "text": "Disabled link button"
+            "text": "Disabled link button",
+            "styledisabled": " lbh-button--disabled"
           }
         }
       },
@@ -46,7 +51,8 @@
         "context": {
           "button": {
             "element": "input",
-            "value": "Start now input button"
+            "value": "Start now input button",
+            "type": "submit"
           }
         }
       },
@@ -55,7 +61,8 @@
         "context": {
           "button": {
             "element": "input",
-            "value": "Disable input button"
+            "value": "Disable input button",
+            "type": "submit"
           }
         }
       }
