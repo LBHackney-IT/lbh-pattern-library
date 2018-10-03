@@ -5,6 +5,7 @@
 html {
     font-family: var(--font-family-main);
     /* font-size: calc(12px + (60 - 12) * (100vw - 160px) / (8000 - 160)); */
+    font-size: var(--font-size-paragraph-default);
     box-sizing: border-box;
     color: var(--color-main);
   }

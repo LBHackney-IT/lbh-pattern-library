@@ -1,0 +1,12 @@
+.lbh-button {
+    background-color: var(--background-button);
+    color: var(--colour-button);
+    border: 2px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 9px 10px 6px;
+    line-height: 1;
+    box-shadow: 0 2px 0 var(--shadow-button);
+    display: inline-block;
+    margin-bottom: 32px;
+}
