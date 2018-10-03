@@ -7,7 +7,8 @@
           "button": {
             "element": "button",
             "text": "Save and continue",
-            "type": "submit"
+            "type": "submit",
+            "disabled": false
           }
         }
       },
@@ -18,7 +19,8 @@
             "element": "button",
             "text": "Disabled button",
             "styledisabled": " lbh-button--disabled",
-            "type": "submit"
+            "type": "submit",
+            "disabled": true
           }
         }
       },
@@ -52,7 +54,8 @@
           "button": {
             "element": "input",
             "value": "Start now input button",
-            "type": "submit"
+            "type": "submit",
+            "disabled": false
           }
         }
       },
@@ -61,8 +64,9 @@
         "context": {
           "button": {
             "element": "input",
-            "value": "Disable input button",
-            "type": "submit"
+            "value": "Disabled input button",
+            "type": "submit",
+            "disabled": true
           }
         }
       }

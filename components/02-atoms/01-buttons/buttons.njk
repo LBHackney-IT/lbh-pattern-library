@@ -1,5 +1,5 @@
 {%- if button.element == 'button' %}
-<button class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}" {%- if button.disable == 'true' %}{%- endif %}>
+<button class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}" {%- if button.disabled == true %}disabled="disabled" aria-disabled="true"{%- endif %}>
   {{ button.text }}
 </button>
 
@@ -9,7 +9,7 @@
 </a>
 
 {%- elseif button.element == 'input' %}
-<input value="{{ button.value }}" class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}">
+<input value="{{ button.value }}" class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}" {%- if button.disabled == true %}disabled="disabled" aria-disabled="true"{%- endif %}>
 {%- endif %}
 
 {# <button type="submit" class="lbh-button">
