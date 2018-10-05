@@ -9,4 +9,29 @@
     box-shadow: 0 2px 0 var(--shadow-button);
     display: inline-block;
     margin-bottom: 32px;
+    position: relative;
+}
+
+.lbh-button--disabled {
+    background-color: var(--background-button-disabled);
+    box-shadow: 0 2px 0 var(--shadow-button-disabled);
+    cursor: default;
+}
+
+.lbh-button--arrow {
+    font-weight: 700;
+}
+
+.lbh-button:not(.lbh-button--disabled):hover {
+    background-color: var(--hover-button);
+}
+
+.lbh-button:not(.lbh-button--disabled):focus {
+    outline: 3px solid var(--focus-button);
+    outline-offset: 0;
+}
+
+.lbh-button:not(.lbh-button--disabled):active {
+    top: 2px;
+    box-shadow: none;
 }

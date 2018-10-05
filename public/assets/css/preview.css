@@ -5,8 +5,3 @@
 .lbh-preview .component {
     margin: 1rem;
 }
-
-.lbh-preview--button .lbh-button {
-    display: block;
-    clear: both;
-}

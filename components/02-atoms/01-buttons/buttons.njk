@@ -11,23 +11,3 @@
 {%- elseif button.element == 'input' %}
 <input value="{{ button.value }}" class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}" {%- if button.disabled == true %}disabled="disabled" aria-disabled="true"{%- endif %}>
 {%- endif %}
-
-{# <button type="submit" class="lbh-button">
-  Save and continue
-</button>
-
-<button type="submit" disabled="disabled" aria-disabled="true" class="lbh-button lbh-button--disabled">
-  Disabled button
-</button>
-
-<a href="#" role="button" class="lbh-button lbh-button--arrow">
-  Start now link button
-</a>
-
-<a href="#" role="button" class="lbh-button lbh-button--disabled">
-  Disabled link button
-</a>
-
-<input value="Start now" name="start-now" type="submit" class="lbh-button">
-
-<input value="Input button disabled" type="submit" disabled="disabled" aria-disabled="true" class="lbh-button lbh-button--disabled"> #}
