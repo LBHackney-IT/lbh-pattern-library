@@ -12,6 +12,17 @@
     position: relative;
 }
 
+.lbh-button:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -4px;
+    left: -2px;
+    background: transparent;
+}
+
 .lbh-button--disabled {
     background-color: var(--background-button-disabled);
     box-shadow: 0 2px 0 var(--shadow-button-disabled);
@@ -20,6 +31,17 @@
 
 .lbh-button--arrow {
     font-weight: 700;
+    padding-right: 42px;
+}
+
+.lbh-button--arrow:after {
+    content: url(../img/arrow.svg);
+    width: 17px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    right: 14px;
+    top: calc(50% - 20px/2);
 }
 
 .lbh-button:not(.lbh-button--disabled):hover {
@@ -34,4 +56,8 @@
 .lbh-button:not(.lbh-button--disabled):active {
     top: 2px;
     box-shadow: none;
+}
+
+.lbh-button:not(.lbh-button--disabled):active:before {
+    top: -4px;
 }
