@@ -14,8 +14,8 @@
     --font-size-paragraph-lede: 1.5rem; /* 24px */
     --font-size-paragraph-small: 1rem; /* 16px */
 
-    --background-main: hsla(180, 4%, 5%, 1);
-    --colour-main: hsla(0, 0%, 100%, 1);
+    --background-main: hsla(0, 0%, 100%, 1);
+    --colour-main: hsla(180, 4%, 5%, 1);
 
     --background-button: hsla(166, 100%, 20%, 1);
     --background-button-disabled: hsla(167, 25%, 60%, 1);

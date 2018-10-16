@@ -6,6 +6,7 @@
 {%- elseif button.element == 'a' %}
 <a href="{{ button.link }}" role="{{ button.role }}" class="lbh-button{{ button.styledisabled }}{{ button.stylearrow }}">
   {{ button.text }}
+  <svg height="20" width="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M16 10.417h-6L0 .917h6z" fill="#fff"/><path d="M0 19.917h6l10-9.5h-6z" fill="#96ccae"/></g></svg>
 </a>
 
 {%- elseif button.element == 'input' %}

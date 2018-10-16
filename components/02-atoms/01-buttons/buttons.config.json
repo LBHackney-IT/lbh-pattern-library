@@ -44,7 +44,7 @@
             "link": "#",
             "role": "button",
             "text": "Disabled link button",
-            "styledisabled": " lbh-button--disabled"
+            "styledisabled": " lbh-button--disabled lbh-button--arrow"
           }
         }
       },
@@ -68,6 +68,30 @@
             "type": "submit",
             "disabled": true,
             "styledisabled": " lbh-button--disabled"
+          }
+        }
+      },
+      {
+        "name": "secondary",
+        "context": {
+          "button": {
+            "element": "button",
+            "text": "Secondary button",
+            "type": "submit",
+            "styledisabled": " lbh-button--secondary",
+            "disabled": false
+          }
+        }
+      },
+      {
+        "name": "secondary-disabled",
+        "context": {
+          "button": {
+            "element": "button",
+            "text": "Secondary disabled",
+            "styledisabled": " lbh-button--disabled lbh-button--secondary",
+            "type": "submit",
+            "disabled": true
           }
         }
       }
