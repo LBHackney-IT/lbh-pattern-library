@@ -18,11 +18,14 @@
     --colour-main: hsla(180, 4%, 5%, 1);
 
     --background-button: hsla(166, 100%, 20%, 1);
+    --background-button-secondary: hsla(0, 0%, 97%, 1);
     --background-button-disabled: hsla(167, 25%, 60%, 1);
+    --background-button-secondary-disabled: hsla(210, 6%, 88%, 1);
     --colour-button: hsla(0, 100%, 100%, 1);
     --shadow-button: hsla(166, 100%, 12%, 1);
     --shadow-button-disabled: hsla(167, 45%, 36%, 1);
     --hover-button: hsla(167, 100%, 16%, 1);
+    --hover-button-secondary: hsla(0, 100%, 100%, 1);
     --focus-button: hsla(42, 100%, 64%, 1);
 
     --size-main: 1rem;

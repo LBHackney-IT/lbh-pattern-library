@@ -18,7 +18,6 @@
           "button": {
             "element": "button",
             "text": "Disabled button",
-            "styledisabled": " lbh-button--disabled",
             "type": "submit",
             "disabled": true
           }
@@ -28,11 +27,12 @@
         "name": "link",
         "context": {
           "button": {
-            "element": "a",
+            "element": "anchor",
             "link": "#",
             "role": "button",
             "text": "Start now link button",
-            "stylearrow": " lbh-button--arrow"
+            "style": " lbh-button--arrow",
+            "disabled": false
           }
         }
       },
@@ -40,11 +40,12 @@
         "name": "link-disabled",
         "context": {
           "button": {
-            "element": "a",
+            "element": "anchor",
             "link": "#",
             "role": "button",
             "text": "Disabled link button",
-            "styledisabled": " lbh-button--disabled lbh-button--arrow"
+            "style": " lbh-button--arrow",
+            "disabled": true
           }
         }
       },
@@ -66,8 +67,7 @@
             "element": "input",
             "value": "Disabled input button",
             "type": "submit",
-            "disabled": true,
-            "styledisabled": " lbh-button--disabled"
+            "disabled": true
           }
         }
       },
@@ -78,7 +78,7 @@
             "element": "button",
             "text": "Secondary button",
             "type": "submit",
-            "styledisabled": " lbh-button--secondary",
+            "style": " lbh-button--secondary",
             "disabled": false
           }
         }
@@ -88,8 +88,8 @@
         "context": {
           "button": {
             "element": "button",
-            "text": "Secondary disabled",
-            "styledisabled": " lbh-button--disabled lbh-button--secondary",
+            "text": "Secondary button disabled",
+            "style": " lbh-button--secondary",
             "type": "submit",
             "disabled": true
           }

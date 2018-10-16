@@ -1,6 +1,8 @@
-**Version 0.4:**
+**Version 0.4.5:**
+- Secondary buttons
+
+Version 0.4:
 - Buttons
-- Heading
 
 Version 0.3.5:
 - Better statuses

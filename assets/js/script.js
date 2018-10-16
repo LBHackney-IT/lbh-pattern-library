@@ -1,7 +1,7 @@
 /*
  * Replace all SVG images with inline SVG
  */
-document.querySelectorAll('img.js-inline-svg').forEach(function(img){
+document.querySelectorAll('svg.js-inline-svg').forEach(function(img){
     var imgID = img.id;
     var imgClass = img.className;
     var imgURL = img.src;

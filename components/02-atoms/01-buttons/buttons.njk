@@ -1,14 +1,14 @@
 {%- if button.element == 'button' %}
-<button class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}" {%- if button.disabled == true %}disabled="disabled" aria-disabled="true"{%- endif %}>
-  {{ button.text }}
-</button>
+  <button class="lbh-button{{ button.style }}" type="{{ button.type }}" {%- if button.disabled == true %}disabled aria-disabled="true"{%- endif %}>
+    {{ button.text }}
+  </button>
 
-{%- elseif button.element == 'a' %}
-<a href="{{ button.link }}" role="{{ button.role }}" class="lbh-button{{ button.styledisabled }}{{ button.stylearrow }}">
-  {{ button.text }}
-  <svg height="20" width="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M16 10.417h-6L0 .917h6z" fill="#fff"/><path d="M0 19.917h6l10-9.5h-6z" fill="#96ccae"/></g></svg>
-</a>
+{%- elseif button.element == 'anchor' %}
+  <a href="{{ button.link }}" role="{{ button.role }}" class="lbh-button{{ button.style }}{%- if button.disabled == true %} lbh-button--disabled{%- endif %}">
+    {{ button.text }}
+    <svg class="lbh-icon--arrow" height="20" width="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M16 10.417h-6L0 .917h6z" fill="#fff"/><path d="M0 19.917h6l10-9.5h-6z" fill="#96ccae"/></g></svg>
+  </a>
 
 {%- elseif button.element == 'input' %}
-<input value="{{ button.value }}" class="lbh-button{{ button.styledisabled }}" type="{{ button.type }}" {%- if button.disabled == true %}disabled="disabled" aria-disabled="true"{%- endif %}>
+  <input value="{{ button.value }}" class="lbh-button" type="{{ button.type }}" {%- if button.disabled == true %}disabled aria-disabled="true"{%- endif %}>
 {%- endif %}
