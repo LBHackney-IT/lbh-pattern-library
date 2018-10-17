@@ -6,6 +6,8 @@ title: Overview
 
 The pattern library is based on [Fractal](http://fractal.build).
 
+The code is hosted on [GitHub](https://github.com/LBHackney-IT/lbh-pattern-library).
+
 Best way to understand how to run it and what is required is to read the [documentation](http://fractal.build/guide). Start from [how to install Fractal](http://fractal.build/guide/installation); Node, npm, Gulp and Fractal itself are the things needed:
 
 1. [Install Node and npm](https://docs.npmjs.com/getting-started/installing-node#install-npm--manage-npm-versions).
@@ -29,5 +31,11 @@ For everything else best to read the [documentation](http://fractal.build/guide)
 The master branch of the library is automatically deployed at every commit to [Netlify](https://lbh-pattern-library.netlify.com).
 
 [Codeship](https://snyk.io/), [Snyk](https://snyk.io/) and [Greenkeeper](https://greenkeeper.io/) are also in use for checking errors while building and vulnerability and mantainability of dependencies.
+
+## How to collaborate
+
+If you have any question, suggestion or need a clarification regarding any component or the library in general feel free to open an [issue](https://github.com/LBHackney-IT/lbh-pattern-library/issues).
+
+Please also use the [issues](https://github.com/LBHackney-IT/lbh-pattern-library/issues) for requesting a component not present yet or a variation of one already in the library.
 
 ## To do
