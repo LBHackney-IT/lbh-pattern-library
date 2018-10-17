@@ -32,7 +32,7 @@ The master branch of the library is automatically deployed at every commit to [N
 
 [Codeship](https://snyk.io/), [Snyk](https://snyk.io/) and [Greenkeeper](https://greenkeeper.io/) are also in use for checking errors while building and vulnerability and mantainability of dependencies.
 
-## How to collaborate
+## How to get in touch and collaborate
 
 If you have any question, suggestion or need a clarification regarding any component or the library in general feel free to open an [issue](https://github.com/LBHackney-IT/lbh-pattern-library/issues).
 
