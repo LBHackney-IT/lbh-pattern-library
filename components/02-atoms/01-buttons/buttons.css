@@ -10,6 +10,7 @@
     display: inline-block;
     margin-bottom: calc(var(--spacing-main) * 2);
     position: relative;
+    font-size: 100%;
 }
 
 .lbh-button--secondary {
@@ -58,8 +59,7 @@
     fill: var(--colour-main);
 }
 
-.lbh-button:not([disabled]):not(.lbh-button--disabled):hover,
- {
+.lbh-button:not([disabled]):not(.lbh-button--disabled):hover {
     background-color: var(--hover-button);
 }
 
