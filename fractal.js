@@ -14,14 +14,14 @@ const fractal = module.exports = require('@frctl/fractal').create();
  * Give your project a title.
  */
 fractal.set('project.title', 'Pattern Library');
-fractal.set('project.version', 'v0.4.0');
+fractal.set('project.version', 'v0.4.5');
 fractal.set('project.author', 'Riccardo Erra');
 
 /*
  * Tell Fractal where to look for components.
  */
 fractal.components.engine('@frctl/nunjucks'); // use Nunjucks for components
-fractal.components.set('ext', '.njk'); // look for files with a .nunj file extension
+fractal.components.set('ext', '.njk'); // look for files with a .njk file extension
 fractal.components.set('path', path.join(__dirname, 'components'));
 fractal.components.set('default.preview', '@preview');
 fractal.components.set('default.collated', 'true');
@@ -56,6 +56,7 @@ fractal.components.set('default.status', 'review');
 /*
  * Tell Fractal where to look for documentation pages.
  */
+fractal.docs.engine('@frctl/nunjucks'); // use Nunjucks for documentation
 fractal.docs.set('path', path.join(__dirname, 'docs'));
 fractal.docs.set('statuses', {
     wip: {
