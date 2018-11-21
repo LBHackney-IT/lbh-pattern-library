@@ -2,9 +2,7 @@
 
 The button component can be included within other components like this:
 
-```
 {% render '@buttons' %}
-```
 
 This template for this component looks like this:
 

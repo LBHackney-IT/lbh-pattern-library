@@ -20,6 +20,7 @@
     display: block;
     border-radius: 50%;
     margin: 0 auto;
+    box-shadow: 0 0 1rem #BFC1C3;
 }
 
 .palette__content p {

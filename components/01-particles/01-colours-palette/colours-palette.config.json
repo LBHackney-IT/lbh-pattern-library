@@ -12,7 +12,11 @@
               "rgba": "rgba(11, 12, 12, 1)",
               "hsla": "hsla(180, 4%, 5%, 1)"
             },
-            "name": "text-colour"
+            "name": "text-colour",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -26,7 +30,11 @@
               "rgba": "rgba(111, 119, 123, 1)",
               "hsla": "hsla(200, 5%, 46%, 1)"
             },
-            "name": "secondary-text-colour"
+            "name": "secondary-text-colour",
+            "contrast": {
+              "against": "light background",
+              "ratio": "4.56"
+            }
           }
         }
       },
@@ -40,7 +48,11 @@
               "rgba": "rgba(255, 255, 255, 1)",
               "hsla": "hsla(0, 100%, 100%, 1)"
             },
-            "name": "page-colour"
+            "name": "page-colour",
+            "contrast": {
+              "against": "dark text",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -54,7 +66,11 @@
               "rgba": "rgba(0, 114, 206, 1)",
               "hsla": "hsla(207, 100%, 40%, 1)"
             },
-            "name": "link-colour"
+            "name": "link-colour",
+            "contrast": {
+              "against": "light background",
+              "ratio": "4.89"
+            }
           }
         }
       },
@@ -68,7 +84,11 @@
               "rgba": "rgba(0, 133, 202, 1)",
               "hsla": "hsla(200, 100%, 40%, 1)"
             },
-            "name": "link-hover-colour"
+            "name": "link-hover-colour",
+            "contrast": {
+              "against": "light background",
+              "ratio": "4.03"
+            }
           }
         }
       },
@@ -82,7 +102,11 @@
               "rgba": "rgba(128, 49, 167, 1)",
               "hsla": "hsla(280, 55%, 42%, 1)"
             },
-            "name": "link-visited-colour"
+            "name": "link-visited-colour",
+            "contrast": {
+              "against": "light background",
+              "ratio": "7.2"
+            }
           }
         }
       },
@@ -96,7 +120,11 @@
               "rgba": "rgba(191, 193, 195, 1)",
               "hsla": "hsla(210, 3%, 76%, 1)"
             },
-            "name": "border-colour"
+            "name": "border-colour",
+            "contrast": {
+              "against": "dark text",
+              "ratio": "10.85"
+            }
           }
         }
       },
@@ -110,7 +138,11 @@
               "rgba": "rgba(222, 224, 226, 1)",
               "hsla": "hsla(210, 6%, 88%, 1)"
             },
-            "name": "panel-colour"
+            "name": "panel-colour",
+            "contrast": {
+              "against": "dark text",
+              "ratio": "14.8"
+            }
           }
         }
       },
@@ -124,7 +156,11 @@
               "rgba": "rgba(248, 248, 248, 1)",
               "hsla": "hsla(0, 0%, 97%, 1)"
             },
-            "name": "highlight-colour"
+            "name": "highlight-colour",
+            "contrast": {
+              "against": "dark text",
+              "ratio": "18.44"
+            }
           }
         }
       },
@@ -138,7 +174,11 @@
               "rgba": "rgba(0, 102, 79, 1)",
               "hsla": "hsla(166, 100%, 20%, 1)"
             },
-            "name": "button-colour"
+            "name": "button-colour",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -152,7 +192,11 @@
               "rgba": "rgba(0, 81, 63, 1)",
               "hsla": "hsla(167, 100%, 16%, 1)"
             },
-            "name": "green (hover colour)"
+            "name": "green (hover colour)",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -166,7 +210,11 @@
               "rgba": "rgba(0, 61, 47, 1)",
               "hsla": "hsla(166, 100%, 12%, 1)"
             },
-            "name": "green (inner shadow)"
+            "name": "green (inner shadow)",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -180,7 +228,11 @@
               "rgba": "rgba(127, 178, 167, 1)",
               "hsla": "hsla(167, 25%, 60%, 1)"
             },
-            "name": "disabled-button"
+            "name": "disabled-button",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -194,7 +246,11 @@
               "rgba": "rgba(50, 132, 114, 1)",
               "hsla": "hsla(167, 45%, 36%, 1)"
             },
-            "name": "disabled (inner shadow)"
+            "name": "disabled (inner shadow)",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -208,7 +264,11 @@
               "rgba": "rgba(0, 177, 64, 1)",
               "hsla": "hsla(142, 100%, 35%, 1)"
             },
-            "name": "attention-green"
+            "name": "attention-green",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -222,7 +282,11 @@
               "rgba": "rgba(164, 214, 94, 1)",
               "hsla": "hsla(85, 59%, 60%, 1)"
             },
-            "name": "confirmation"
+            "name": "confirmation",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -236,7 +300,11 @@
               "rgba": "rgba(255, 200, 69, 1)",
               "hsla": "hsla(42, 100%, 64%, 1)"
             },
-            "name": "focus-colour"
+            "name": "focus-colour",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       },
@@ -250,7 +318,11 @@
               "rgba": "rrgba(190, 58, 52, 1)",
               "hsla": "hsla(3, 57%, 47%, 1)"
             },
-            "name": "error-colour"
+            "name": "error-colour",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
           }
         }
       }
