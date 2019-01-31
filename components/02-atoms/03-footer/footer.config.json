@@ -1,0 +1,13 @@
+{
+    "title": "Footer",
+    "variants": [
+        {
+            "name": "default",
+            "context": {
+                "footer": {
+                    "text": "Footer"
+                }
+            }
+        }
+    ]
+}
