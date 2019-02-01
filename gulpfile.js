@@ -77,7 +77,7 @@ gulp.task('css:process', function () {
   gulp.task('css:watch', function () {
     gulp.watch([
       'assets/css/*.css',
-      'components/**/*.scss'
+      'components/**/*.css'
     ], gulp.series(
       'css'
     ));

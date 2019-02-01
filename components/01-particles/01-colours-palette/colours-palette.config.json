@@ -291,6 +291,24 @@
         }
       },
       {
+        "name": "bright-green",
+        "context": {
+          "palette": {
+            "background": "#84BD00",
+            "colour": {
+              "hex": "#84BD00",
+              "rgba": "rgba(132, 189, 0, 1)",
+              "hsla": "hsla(78, 100%, 37%, 1)"
+            },
+            "name": "bright-green",
+            "contrast": {
+              "against": "light background",
+              "ratio": "19.67"
+            }
+          }
+        }
+      },
+      {
         "name": "focus-colour",
         "context": {
           "palette": {
