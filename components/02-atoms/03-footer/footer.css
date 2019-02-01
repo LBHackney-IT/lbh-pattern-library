@@ -1,5 +1,30 @@
 .lbh-footer {
-    background-color: red;
-    height: 100px;
-    width: 200px;
+    background-color: var(--background-footer);
+    border-top: 4px solid var(--background-bar-second);
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 4rem;
+}
+
+.lbh-footer:before {
+    content: "";
+    background: var(--background-bar-first);
+    top: -11px;
+    display: block;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.lbh-footer:after {
+    content: "";
+    background: var(--background-bar-third);
+    top: 5px;
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
