@@ -4,7 +4,6 @@
     position: relative;
     width: 100%;
     height: auto;
-    padding: 4rem;
 }
 
 .lbh-header:before {
@@ -31,31 +30,20 @@
 
 .lbh-header .wrapper {
     overflow: hidden;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
 }
 
-.lbh-header .img {
-    width: 30%;
+.lbh-header img {
+    width: 70%;
     display: inline-block;
     padding: 2rem 0 2rem 1rem;
-    position: absolute;    
 }
 
-.lbh-header .h1 {
-    font-size: var(--font-size-heading-large);
-    padding: 2.5rem 2rem 0;
-    color: var(--color-header);
-    float: left;
-    font-weight: 400;
-    margin: 0;
-}
-
-@media (max-width: 720px) {
-    .lbh-header .img {
-        width: 70%;
-    }
-
-    .lbh-header .h1 {
-        padding: 0 0 2rem 1rem;
-        width: 100%;
+@media (min-width: 720px) {
+    .lbh-header img {
+        width: 30%;
     }
 }
