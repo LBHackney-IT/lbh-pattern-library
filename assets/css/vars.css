@@ -14,6 +14,26 @@
     --font-size-paragraph-lede: 1.5rem; /* 24px */
     --font-size-paragraph-small: 1rem; /* 16px */
 
+    --text-colour: hsla(180, 4%, 5%, 1);
+    --secondary-text-colour: hsla(200, 5%, 46%, 1);
+    --page-colour: hsla(0, 100%, 100%, 1);
+    --link-colour: hsla(207, 100%, 40%, 1);
+    --link-hover-colour: hsla(200, 100%, 40%, 1);
+    --link-visited-colour: hsla(280, 55%, 42%, 1);
+    --border-colour: hsla(210, 3%, 76%, 1);
+    --panel-colour: hsla(210, 6%, 88%, 1);
+    --highlight-colour: hsla(0, 0%, 97%, 1);
+    --button-colour: hsla(166, 100%, 20%, 1);
+    --hover-colour-green: hsla(167, 100%, 16%, 1);
+    --inner-shadow-green: hsla(166, 100%, 12%, 1);
+    --disabled-button: hsla(167, 25%, 60%, 1);
+    --disabled-inner-shadow: hsla(167, 45%, 36%, 1);
+    --attention-green: hsla(142, 100%, 35%, 1);
+    --confirmation: hsla(85, 59%, 60%, 1);
+    --bright-green: hsla(78, 100%, 37%, 1);
+    --focus-colour: hsla(42, 100%, 64%, 1);
+    --error-colour: hsla(3, 57%, 47%, 1);
+
     --background-main: hsla(0, 0%, 100%, 1);
     --colour-main: hsla(180, 4%, 5%, 1);
 
