@@ -1,62 +1,34 @@
-/*------------------------------------*\
-    #TEXT-INPUT-FIELD
-\*------------------------------------*/
+.lbh-form-group {
+  margin-bottom: 20px;
+  display: block;
+}
 
-.text-input-field {
-    display: block;
-    padding: 0 0 5px 5px;
-  }
- /* Code taken from Cisco Pattern Library
-  .input-box {
-    min-width: 238px;
-    border-radius: radius-default;
-    border: 1px solid $border-form;
-    padding: 3px 5px;
-    position: relative;
-    font-size: 14px;
-    color: $color-default;
-    margin: 0;
-  }
-  
-  .input-box:hover {
-    border-color: 
-  }
-  
-  .input-box:focus,
-  .input-box[checked] {
-    border-color: $border-active;
-    outline: none;
-    box-shadow: 2px 0 0 0 $border-active inset;
-  }
-  
-  .input-box:disabled {
-    opacity: .5;
-    background-color: $background-disabled;
-  
-    &:hover {
-      border-color: $border-form;
-    }
-  }
-  
-  .input-box[readonly],
-  .input-box[readonly]:focus {
-    border-color: $border-disabled;
-    box-shadow: none;
-  }
-  
-  .input-box--error {
-    box-shadow: 2px 0 0 0 $border-error inset;
-  }
-  
-  .input-box--error:focus,
-  .input-box--error[checked] {
-    border-color: $border-error;
-    box-shadow: 2px 0 0 0 $border-error inset;
-  }
-  
-  .input-box--warning,
-  .input-box--warning:hover,
-  .input-box--warning:focus {
-    border-color: $border-warning;
-    box-shadow: 2px 0 0 0 $border-warning inset;
-  }
+.lbh-label { /* Styling to the label above the text input field */
+  font-family: var(--font-family-main);
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  font-weight: 400;
+  font-size: var(--font-size-heading-small); /* 16px */
+  margin-bottom: 5px;
+  display: block;
+}
+
+.lbh-input {
+  font-family: var(--font-family-main);
+  -webkit-font-smoothing: antialiased; /* Needed? */
+  font-weight: 400;
+  font-size: var(--font-size-heading-small); /* 16px */
+  line-height: 1.25;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  margin-top: 0;
+  padding: 5px;
+  border: 2px solid var(--colour-main);
+  border-radius: 0;
+  -webkit-appearance: none; /* Needed? */
+  display: block;
+}
+
+/* Need to add hover colour to the border - using the updated colours added to the vars css files
+Also need to solidify the border*/
