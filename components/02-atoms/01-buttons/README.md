@@ -12,4 +12,5 @@ In general we recommend using only one call to action on a page, styled as our g
 https://github.com/alphagov/govuk-design-system-backlog/issues/34#issuecomment-407407825
 
 ## To do ##
-- Mobile styling.
+- Mobile styling, buttons should be full witch for mobile layout.
+- Accessibilit fix, disable buttons have a low colour contrast ratio.
