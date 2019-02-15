@@ -1,4 +1,8 @@
-**Version 0.4.5:**
+**Version 0.5:**
+- Header
+- Footer
+
+Version 0.4.5:
 - Secondary buttons
 
 Version 0.4:

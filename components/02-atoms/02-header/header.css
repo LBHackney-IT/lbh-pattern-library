@@ -1,0 +1,49 @@
+.lbh-header {
+    background-color: var(--background-header);
+    border-bottom: 4px solid var(--background-bar-second);
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.lbh-header:before {
+    content: "";
+    background: var(--background-bar-first);
+    bottom: 5px;
+    display: block;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.lbh-header:after {
+    content: "";
+    background: var(--background-bar-third);
+    bottom: -11px;
+    display: block;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.lbh-header .wrapper {
+    overflow: hidden;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.lbh-header img {
+    width: 70%;
+    display: inline-block;
+    padding: 2rem 0 2rem 1rem;
+}
+
+@media (min-width: 720px) {
+    .lbh-header img {
+        width: 30%;
+    }
+}

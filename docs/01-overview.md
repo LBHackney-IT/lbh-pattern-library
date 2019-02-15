@@ -39,3 +39,5 @@ If you have any question, suggestion or need a clarification regarding any compo
 Please also use the [issues](https://github.com/LBHackney-IT/lbh-pattern-library/issues) for requesting a component not present yet or a variation of one already in the library.
 
 ## To do
+
+The library is a work in progess. To check what we are working on please refer to the open [issues](https://github.com/LBHackney-IT/lbh-pattern-library/issues).

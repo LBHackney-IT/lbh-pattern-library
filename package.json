@@ -1,6 +1,6 @@
 {
   "name": "lbh-pattern-library",
-  "version": "0.4.5",
+  "version": "0.5",
   "description": "lbh-pattern-library",
   "main": "gulpfile.js",
   "scripts": {
@@ -45,5 +45,8 @@
     "gulp-uglify": "^3.0.1",
     "moveto": "^1.7.3",
     "postcss-easy-import": "^3.0.0"
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
