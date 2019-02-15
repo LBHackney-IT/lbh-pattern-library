@@ -1,0 +1,90 @@
+.lbh-form-group {
+    margin-bottom: 20px
+}
+
+@media (min-width: 40.0625em) {
+    .lbh-form-group {
+        margin-bottom: 30px
+    }
+}
+
+.lbh-form-group .lbh-form-group:last-of-type {
+    margin-bottom: 0
+}
+
+.lbh-form-group--error {
+    padding-left: 15px;
+    border-left: 5px solid #b10e1e
+}
+
+.lbh-form-group--error .lbh-form-group {
+    padding: 0;
+    border: 0
+}
+
+
+.lbh-character-count .lbh-form-group, .lbh-character-count .lbh-textarea {
+    margin-bottom: 5px
+ }
+ 
+ .lbh-character-count .lbh-textarea--error {
+    padding: 3px
+ }
+ .lbh-textarea {
+    font-family: "nta", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+    resize: vertical;
+    border: 2px solid #0b0c0c;
+    border-radius: 0;
+    -webkit-appearance: none
+ }
+ @media print {
+    .lbh-textarea {
+        font-family: sans-serif
+    }
+ }
+ 
+ @media (min-width: 40.0625em) {
+    .lbh-textarea {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.25
+    }
+ }
+ 
+ @media print {
+    .lbh-textarea {
+        font-size: 14pt;
+        line-height: 1.25
+    }
+ }
+ 
+ .lbh-textarea:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 0
+ }
+ 
+ @media (min-width: 40.0625em) {
+    .lbh-textarea {
+        margin-bottom: 30px
+    }
+ }
+ 
+ .lbh-textarea--error {
+    border: 4px solid #b10e1e
+ }
+ 
+ 
+ 
