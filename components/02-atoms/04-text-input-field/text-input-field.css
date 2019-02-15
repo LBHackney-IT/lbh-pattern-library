@@ -1,12 +1,12 @@
 /*------------------------------------*\
-    #INPUTBOX
+    #TEXT-INPUT-FIELD
 \*------------------------------------*/
 
-.input-box__label {
+.text-input-field {
     display: block;
     padding: 0 0 5px 5px;
   }
-  
+ /* Code taken from Cisco Pattern Library
   .input-box {
     min-width: 238px;
     border-radius: radius-default;
@@ -19,7 +19,7 @@
   }
   
   .input-box:hover {
-    border-color: $border-default;
+    border-color: 
   }
   
   .input-box:focus,
