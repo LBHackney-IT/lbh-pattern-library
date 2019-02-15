@@ -1,0 +1,62 @@
+/*------------------------------------*\
+    #INPUTBOX
+\*------------------------------------*/
+
+.input-box__label {
+    display: block;
+    padding: 0 0 5px 5px;
+  }
+  
+  .input-box {
+    min-width: 238px;
+    border-radius: radius-default;
+    border: 1px solid $border-form;
+    padding: 3px 5px;
+    position: relative;
+    font-size: 14px;
+    color: $color-default;
+    margin: 0;
+  }
+  
+  .input-box:hover {
+    border-color: $border-default;
+  }
+  
+  .input-box:focus,
+  .input-box[checked] {
+    border-color: $border-active;
+    outline: none;
+    box-shadow: 2px 0 0 0 $border-active inset;
+  }
+  
+  .input-box:disabled {
+    opacity: .5;
+    background-color: $background-disabled;
+  
+    &:hover {
+      border-color: $border-form;
+    }
+  }
+  
+  .input-box[readonly],
+  .input-box[readonly]:focus {
+    border-color: $border-disabled;
+    box-shadow: none;
+  }
+  
+  .input-box--error {
+    box-shadow: 2px 0 0 0 $border-error inset;
+  }
+  
+  .input-box--error:focus,
+  .input-box--error[checked] {
+    border-color: $border-error;
+    box-shadow: 2px 0 0 0 $border-error inset;
+  }
+  
+  .input-box--warning,
+  .input-box--warning:hover,
+  .input-box--warning:focus {
+    border-color: $border-warning;
+    box-shadow: 2px 0 0 0 $border-warning inset;
+  }
