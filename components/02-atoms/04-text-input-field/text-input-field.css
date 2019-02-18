@@ -15,7 +15,7 @@
 
 .lbh-input {
   font-family: var(--font-family-main);
-  -webkit-font-smoothing: antialiased; /* Needed? */
+  -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: var(--font-size-heading-small); /* 16px */
   line-height: 1.25;
@@ -26,9 +26,6 @@
   padding: 5px;
   border: 2px solid var(--colour-main);
   border-radius: 0;
-  -webkit-appearance: none; /* Needed? */
+  -webkit-appearance: none;
   display: block;
 }
-
-/* Need to add hover colour to the border - using the updated colours added to the vars css files
-Also need to solidify the border*/
