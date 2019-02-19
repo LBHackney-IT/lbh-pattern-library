@@ -41,7 +41,7 @@
     --background-bar-second: hsla(142, 100%, 35%, 1);
     --background-bar-third: hsla(78, 100%, 37%, 1);
     --background-footer: hsla(180, 4%, 5%, 1);
-    --background-header: hsla(180, 4%, 5%, 1); /* Potential way to simplify some var required for header and footer css */
+    --background-header: hsla(180, 4%, 5%, 1); /* Potential way to simplify same var required for header and footer css */
 
     --background-button: hsla(166, 100%, 20%, 1);
     --background-button-secondary: hsla(0, 0%, 97%, 1);
