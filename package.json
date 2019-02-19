@@ -1,6 +1,6 @@
 {
   "name": "lbh-pattern-library",
-  "version": "0.4.5",
+  "version": "0.5",
   "description": "lbh-pattern-library",
   "main": "gulpfile.js",
   "scripts": {
