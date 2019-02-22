@@ -1,3 +1,203 @@
 
- 
- 
+
+@media (min-width: 40.0625em){
+    .lbh-form-group {
+        margin-bottom: 30px;
+    }
+}
+
+.lbh-form-group {
+    margin-bottom: 20px;
+}
+
+div {
+    display: block;
+}
+
+.lbh-fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial; 
+}
+
+    .lbh-fieldset:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+    @media (min-width: 40.0625em){
+    .lbh-fieldset__legend--xl {
+        font-size: 48px;
+        font-size: 3rem;
+        line-height: 1.04167;
+    }
+
+}
+
+    .lbh-fieldset__legend--xl {
+    font-family: "nta",Arial,sans-serif; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1.09375; 
+    margin-bottom: 15px; 
+}
+
+@media (min-width: 40.0625em){
+    .lbh-fieldset__legend {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579;
+    }
+
+}
+
+.lbh-fieldset__legend {
+    font-family: "nta",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #0b0c0c;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table;
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    white-space: normal;
+}
+
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+@media (min-width: 40.0625em){
+    .lbh-checkboxes__item {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579;
+    }
+}
+
+.lbh-checkboxes__item {
+    font-family: "nta",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    display: block;
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding: 0 0 0 40px;
+    clear: left;
+}
+
+div {
+    display: block;
+}
+
+@media (min-width: 40.0625em){
+    .lbh-checkboxes__item {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579;
+    }
+}
+
+.lbh-checkboxes__item {
+    font-family: "nta",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25;
+    display: block;
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding: 0 0 0 40px;
+    clear: left;
+}
+
+div {
+    display: block;
+}
+
+
+.lbh-checkboxes__item:last-child, 
+ .lbh-checkboxes__item:last-of-type {
+    margin-bottom: 0;
+}
+
+@media (min-width: 40.0625em){
+    .lbh-checkboxes__item {
+        font-size: 19px;
+        font-size: 1.1875rem;
+        line-height: 1.31579;
+    }
+}
+
+.lbh-checkboxes__item {
+    font-family: "nta",Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.25; 
+    display: block;
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 10px; 
+    padding: 0 0 0 40px;
+    clear: left;
+}
+
+.lbh-checkboxes__input+.lbh-checkboxes__label::after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 9px;
+    width: 18px;
+    height: 7px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border: solid;
+    border-width: 0 0 5px 5px;
+    border-top-color: transparent;
+    opacity: 0;
+    background: transparent;
+}
