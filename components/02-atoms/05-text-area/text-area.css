@@ -25,7 +25,7 @@
 
 .lbh-form-group--error {
     padding-left: 15px;
-    border-left: 5px solid #b10e1e
+    border-left: 5px solid #b10e1e /* change to variables */
 }
 
 .lbh-form-group--error .lbh-form-group {
@@ -41,6 +41,7 @@
  .lbh-character-count .lbh-textarea--error {
     padding: 3px
  }
+ 
  .lbh-textarea {
     --font-family-main: Arial, Helvetica Neue, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -56,10 +57,11 @@
     margin-bottom: 20px;
     padding: 5px;
     resize: vertical;
-    border: 2px solid #0b0c0c;
+    border: 2px solid #0b0c0c; /* change to variables */
     border-radius: 0;
     -webkit-appearance: none
  }
+
  @media print {
     .lbh-textarea {
         font-family: sans-serif
@@ -82,7 +84,7 @@
  }
  
  .lbh-textarea:focus {
-    outline: 3px solid #ffbf47;
+    outline: 3px solid #ffbf47; /* change to variables */
     outline-offset: 0
  }
  
@@ -93,8 +95,5 @@
  }
  
  .lbh-textarea--error {
-    border: 4px solid #b10e1e
+    border: 4px solid #b10e1e /* change to variables */
  }
- 
- 
- 
