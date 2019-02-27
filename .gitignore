@@ -58,3 +58,4 @@ npm-debug.log
 
 # Fractal specific files
 /build
+/public/assets/css/style.css
