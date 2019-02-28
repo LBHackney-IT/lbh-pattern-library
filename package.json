@@ -37,7 +37,7 @@
     "gulp-rename": "^1.4.0",
     "normalize.css": "^8.0.0",
     "system-font-css": "^2.0.2",
-    "postcss-preset-env": "^6.0.7",
+    "postcss-preset-env": "^6.6.0",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.5.0",
     "gulp-cssnano": "^2.1.3",
