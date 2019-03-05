@@ -196,16 +196,16 @@ div {
 /* div {
     display: block;
 } */
-/* 
+
 @media (min-width: 40.0625em){
     .lbh-checkboxes__item {
         font-size: 19px;
         font-size: 1.1875rem;
         line-height: 1.31579;
     }
-} */
+}
 
-/* .lbh-checkboxes__item {
+.lbh-checkboxes__item {
     font-family: "nta",Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -219,7 +219,7 @@ div {
     margin-bottom: 10px;
     padding: 0 0 0 40px;
     clear: left;
-} */
+}
 
 /* div {
     display: block;
