@@ -1,4 +1,72 @@
 
+body {
+    line-height: 24px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.lbh-checkboxes__input[type="lbh-checkboxes"] {
+    opacity: 0;
+}
+
+.lbh-checkboxes__label {
+    position: relative;
+    display: inline-block;
+    padding-left: 22px;
+    /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+    
+}
+
+.lbh-checkboxes__label::before,
+.lbh-checkboxes__label::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    /*Needed for the line-height to take effect*/
+    
+}
+
+/*Outer box of the fake checkbox*/
+.lbh-checkboxes__label::before{
+    height: 16px;
+    width: 16px;
+    border: 1px solid;
+    left: 0px;
+    top: 3px;
+    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+     *to vertically center it.
+     */
+    
+}
+
+/*Checkmark of the fake checkbox*/
+.lbh-checkboxes__label::after {
+    height: 5px;
+    width: 9px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    transform: rotate(-45deg);
+    left: 4px;
+    top: 7px;
+}
+
+/* Hide the checkmark by default */
+.lbh-checkboxes__input[type="lbh-checkboxes"] + label::after {
+    content: none;
+}
+
+/* Unhide on the checked state */
+.lbh-checkboxes__input[type="lbh-checkboxes"]:checked + label::after {
+    content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.lbh-checkboxes__input[type="lbh-checkboxes"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+
+
 
 @media (min-width: 40.0625em){
     .lbh-form-group {
@@ -20,7 +88,9 @@ div {
     border: 0;
 }
 
-fieldset {
+
+
+/* fieldset {
     display: block;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
@@ -33,24 +103,24 @@ fieldset {
     border-style: groove;
     border-color: threedface;
     border-image: initial; 
-}
+} */
 
-    .lbh-fieldset:after {
+    /* .lbh-fieldset:after {
     content: "";
     display: block;
     clear: both;
-}
+} */
 
-    @media (min-width: 40.0625em){
+    /* @media (min-width: 40.0625em){
     .lbh-fieldset__legend--xl {
         font-size: 48px;
         font-size: 3rem;
         line-height: 1.04167;
     }
 
-}
+} */
 
-    .lbh-fieldset__legend--xl {
+    /* .lbh-fieldset__legend--xl {
     font-family: "nta",Arial,sans-serif; 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -59,16 +129,16 @@ fieldset {
     font-size: 2rem;
     line-height: 1.09375; 
     margin-bottom: 15px; 
-}
+} */
 
-@media (min-width: 40.0625em){
+/* @media (min-width: 40.0625em){
     .lbh-fieldset__legend {
         font-size: 19px;
         font-size: 1.1875rem;
         line-height: 1.31579;
     }
 
-}
+} */
 
 .lbh-fieldset__legend {
     font-family: "nta",Arial,sans-serif;
@@ -89,7 +159,7 @@ fieldset {
     white-space: normal;
 }
 
-legend {
+/* legend {
     display: block;
     padding-inline-start: 2px;
     padding-inline-end: 2px;
@@ -97,17 +167,17 @@ legend {
     border-style: none;
     border-color: initial;
     border-image: initial;
-}
+} */
 
-@media (min-width: 40.0625em){
+/* @media (min-width: 40.0625em){
     .lbh-checkboxes__item {
         font-size: 19px;
         font-size: 1.1875rem;
         line-height: 1.31579;
     }
-}
+} */
 
-.lbh-checkboxes__item {
+/* .lbh-checkboxes__item {
     font-family: "nta",Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -121,21 +191,21 @@ legend {
     margin-bottom: 10px;
     padding: 0 0 0 40px;
     clear: left;
-}
+} */
 
-div {
+/* div {
     display: block;
-}
-
+} */
+/* 
 @media (min-width: 40.0625em){
     .lbh-checkboxes__item {
         font-size: 19px;
         font-size: 1.1875rem;
         line-height: 1.31579;
     }
-}
+} */
 
-.lbh-checkboxes__item {
+/* .lbh-checkboxes__item {
     font-family: "nta",Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -149,27 +219,27 @@ div {
     margin-bottom: 10px;
     padding: 0 0 0 40px;
     clear: left;
-}
+} */
 
-div {
+/* div {
     display: block;
-}
+} */
 
 
-.lbh-checkboxes__item:last-child, 
+/* .lbh-checkboxes__item:last-child, 
  .lbh-checkboxes__item:last-of-type {
     margin-bottom: 0;
-}
+} */
 
-@media (min-width: 40.0625em){
+/* @media (min-width: 40.0625em){
     .lbh-checkboxes__item {
         font-size: 19px;
         font-size: 1.1875rem;
         line-height: 1.31579;
     }
-}
+} */
 
-.lbh-checkboxes__item {
+/* .lbh-checkboxes__item {
     font-family: "nta",Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -183,9 +253,9 @@ div {
     margin-bottom: 10px; 
     padding: 0 0 0 40px;
     clear: left;
-}
+} */
 
-.lbh-checkboxes__input+.lbh-checkboxes__label::after {
+/* .lbh-checkboxes__input+.lbh-checkboxes__label::after {
     content: "";
     position: absolute;
     top: 11px;
@@ -200,4 +270,4 @@ div {
     border-top-color: transparent;
     opacity: 0;
     background: transparent;
-}
+} */
