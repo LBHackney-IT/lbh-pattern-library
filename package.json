@@ -1,52 +1,40 @@
 {
   "name": "lbh-pattern-library",
-  "version": "0.5",
-  "description": "lbh-pattern-library",
-  "main": "gulpfile.js",
-  "scripts": {
-    "start": "gulp fractal"
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/30b38bb5-cc87-4643-837f-9d9733b5d8f8/deploy-status)](https://app.netlify.com/sites/lbh-pattern-library/deploys)  [![Codeship Status for LBHackney-IT/lbh-pattern-library](https://app.codeship.com/projects/4a881f30-814c-0136-409f-6ef3b406e826/status?branch=master)](https://app.codeship.com/projects/301692)  [![Greenkeeper badge](https://badges.greenkeeper.io/LBHackney-IT/lbh-pattern-library.svg?token=aeaf15d91330ee168acb79319c49ccd0e967af460a908c5c57940d566fa14ead&ts=1534255836760)](https://greenkeeper.io/)",
+  "main": "fractal.js",
+  "directories": {
+    "doc": "docs"
   },
-  "engines": {
-    "node": "8.9.4"
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/nunjucks": "^1.0.3",
+    "del": "^4.0.0",
+    "dev": "^0.1.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "node": "^11.11.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-preset-env": "^6.6.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/LBHackney-IT/lbh-pattern-library.git"
+    "url": "git+https://github.com/LBHackney-IT/lbh-pattern-library.git"
   },
-  "keywords": [
-    "fractal",
-    "pattern",
-    "library",
-    "hackney"
-  ],
-  "author": "Riccardo Erra",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/LBHackney-IT/lbh-pattern-library/issues"
   },
-  "homepage": "https://github.com/LBHackney-IT/lbh-pattern-library#readme",
-  "dependencies": {
-    "@frctl/fractal": "^1.1.7",
-    "@frctl/mandelbrot": "^1.2.0",
-    "@frctl/nunjucks": "^1.0.3"
-  },
-  "devDependencies": {
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-rename": "^1.4.0",
-    "normalize.css": "^8.0.0",
-    "system-font-css": "^2.0.2",
-    "postcss-preset-env": "^6.0.7",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.5.0",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
-    "moveto": "^1.7.3",
-    "postcss-easy-import": "^3.0.0"
-  },
-  "directories": {
-    "doc": "docs"
-  }
+  "homepage": "https://github.com/LBHackney-IT/lbh-pattern-library#readme"
 }
