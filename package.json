@@ -27,7 +27,7 @@
   "homepage": "https://github.com/LBHackney-IT/lbh-pattern-library#readme",
   "dependencies": {
     "@frctl/fractal": "^1.1.7",
-    "@frctl/mandelbrot": "^1.2.0",
+    "@frctl/mandelbrot": "^1.2.1",
     "@frctl/nunjucks": "^1.0.3"
   },
   "devDependencies": {
