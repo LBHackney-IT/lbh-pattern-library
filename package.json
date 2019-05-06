@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "del": "^3.0.0",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
     "normalize.css": "^8.0.0",
